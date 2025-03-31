@@ -18,8 +18,10 @@ class Question07 { // Class
                     }
                 } catch (InputMismatchException p) {
                     System.out.println("Error : " + p);
+                    scanner.nextLine();
                 } catch (NoSuchElementException z) {
-                    System.out.println("Error : " + z);
+                    System.out.println("\nError : " + z);
+                    scanner.nextLine();
                 } catch (Exception e) {
                     System.out.println("Error : " + e);
                 }
